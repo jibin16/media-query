@@ -1,0 +1,41 @@
+body{
+    background-color: antiquewhite;
+}
+header h1{
+    color: blue;
+    text-align: center;
+    padding-top: 20px;
+}
+h2{
+    color: rgb(153, 151, 25);
+}
+.row{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(188, 110, 8);
+}
+.col{
+    height: 600px;
+    width: 250px;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(218, 255, 71);
+    align-items: center;
+}
+@media screen and (max-width: 400px){
+    body{
+        background-color: aquamarine;
+    }
+    header{
+        background-color: antiquewhite;
+    }
+    h1{
+        color: blue;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+}
